@@ -1,0 +1,358 @@
+/**  @autor 2020 Pabijan Grzegorz  **/
+
+* {
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 16px;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, #003399 0%, #000033 20%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  color: white;
+}
+table {
+  border-spacing: 10px 10px;
+  border-collapse: collapse;
+}
+textarea {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+td {
+  text-align: left;
+}
+
+th {
+  padding: 10px;
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  font-weight: normal;
+}
+
+.gp-body {
+  width: 98%;
+  margin-bottom: 100px;
+  margin-top: 110px;
+}
+
+.gp-inline-block {
+  display: inline-block;
+}
+
+/*  */
+/*  */
+
+.flex-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.gp-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  column-gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.test {
+  margin-top: 30px;
+  border: solid white 10px;
+}
+/*  */
+/*  */
+.gp-nawig {
+  padding: 10px;
+  z-index: 1;
+  box-shadow: 0px 0px 0px 0px #99ccff;
+  background-color: #000033;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.gp-legenda {
+  position: fixed;
+  left: 10px;
+  top: 100px;
+}
+
+.gp-font-calc {
+  font-size: calc(10px + 0.6vw);
+}
+
+.gp-font-min-calc {
+  font-size: calc(8px + 0.2vw);
+}
+
+.gp-nawig-info-gosc {
+  border: 2px solid greenyellow;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.gp-nawig-info-siec {
+  border: 2px solid lightskyblue;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.gp-nawig-tytul {
+  font-size: 22px;
+}
+
+.gp-menu-lewe {
+  position: fixed;
+  left: 10px;
+  top: 120px;
+  text-align: left;
+}
+
+.gp-ub {
+  padding: 20px;
+}
+
+.gp-ub-info {
+  padding: 20px;
+  background-color: transparent;
+}
+
+.gp-dark-blue {
+  margin: 2px;
+  background-color: #000033;
+}
+
+.gp-dark-blue:hover {
+  color: silver;
+  opacity: 0, 5;
+}
+
+.gp-textarea {
+  width: 600px;
+  height: 300px;
+  border: 0px solid white;
+}
+
+.gp-input {
+  margin-left: 10px;
+  height: 26px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 8px 0px 8px 0px;
+  width: 300px;
+}
+
+.gp-input-wymagane {
+  background-color: khaki;
+}
+
+.gp-input-nazwa {
+  text-align: left;
+  white-space: nowrap;
+}
+
+.gp-kafel {
+  padding-right: 160px;
+  padding-left: 160px;
+}
+
+.gp-warstwa {
+  width: 60%;
+}
+
+.gp-karta {
+  padding: 20px;
+  width: 70%;
+}
+
+.gp-font-comic {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.gp-nawig-tytul {
+  font-size: 22px;
+}
+
+.gp-width-100p {
+  width: 100%;
+}
+
+.gp-width-80p {
+  width: 80%;
+}
+
+.gp-display-middle {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.gp-flex-jc-start {
+  justify-content: flex-start;
+}
+
+.gp-flex-jc-center {
+  justify-content: center;
+}
+
+.gp-flex-jc-end {
+  justify-content: flex-end;
+}
+
+.gp-flex-jc-around {
+  -webkit-justify-content: space-around; /* Safari 6.1+ */
+  justify-content: space-around;
+}
+
+.gp-flex-jc-between {
+  justify-content: space-between;
+}
+
+.gp-flex-ai-center {
+  align-items: center;
+}
+
+.gp-flex-ai-start {
+  align-items: flex-start;
+}
+
+.gp-flex-column {
+  /* align-items: center; */
+  flex-direction: column;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.gp-flex-row {
+  display: flex;
+  align-items: flex-start;
+  display: -webkit-flex; /* Safari */
+  flex-wrap: wrap;
+}
+
+.gp-flex-kafel {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  box-shadow: 0 0 6px 6px rgba(255, 255, 255, 0.1);
+  -webkit-transition: background 2s, color 2s, box-shadow 2s; /* For Safari 3.1 to 6.0 */
+  transition: background 1s, font-size 1s, box-shadow 1s;
+  width: 200px;
+  height: 200px;
+}
+
+.gp-flex-kafel:hover {
+  font-size: 1.2em;
+  box-shadow: 0 0 20px 1px rgba(255, 255, 255, 1);
+  background-color: transparent;
+}
+
+.gp-kafel-flex-info {
+  padding: 4px;
+  white-space: pre-line;
+  max-width: 190px;
+  background-color: transparent;
+}
+
+.gp-kafel-flex-head {
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 198px;
+}
+
+.gp-button-transform {
+  transition: background 2s, box-shadow 2s;
+  font-size: 10px;
+  margin: 10px;
+  color: gold;
+  text-align: center;
+  padding: 4px;
+  box-shadow: 0 0 6px 6px rgba(255, 255, 255, 0.1);
+  transform: translate(0px, -36px);
+}
+
+.gp-button-transform:hover {
+  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.gp-block {
+  display: block;
+}
+
+.gp-schowaj {
+  display: none;
+}
+
+.gp-block-100p {
+  width: 100%;
+  display: block;
+}
+
+.gp-ikona-edycja {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  margin: 12px;
+  border: 0px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 6px rgba(255, 255, 255, 0.4);
+  background-repeat: no-repeat;
+  background-image: url("../zdjecie/GP/edycja_40x40.png");
+}
+
+.gp-position-sticky-top-110 {
+  z-index: 1;
+  position: sticky;
+  top: 110px;
+}
+
+.gp-position-sticky-top-160 {
+  z-index: 1;
+  position: sticky;
+  top: 160px;
+}
+
+.gp-kontener-srodek {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.gp-border-radius {
+  background-color: transparent;
+  border: 1px white dotted;
+  border-radius: 6px;
+  padding: 1px 8px 1px 8px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// JQUERY 
+*/
+.ui-menu .ui-menu-item-wrapper {
+  text-align: left;
+}

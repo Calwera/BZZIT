@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://bzzit/bzzit/sprzet/index.php -->
+<html lang="pl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--<base target="_parent">-->
+    <base href="." target="_parent" />
+
+    <meta name="author" content="Pabijan Grzegorz" />
+    <meta name="description" content="UMK" />
+    <meta name="keywords" content="UMK" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="http://bzzit/bzzit/sprzet/zdjecie/GP/favicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      href="http://bzzit/bzzit/sprzet/favicon.png"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" href="w3.css" type="text/css" />
+    <link rel="stylesheet" href="gp.css" type="text/css" />
+    <link rel="stylesheet" href="gp_tooltip.css" type="text/css" />
+    <link rel="stylesheet" href="./BZZIT_files/jquery-ui.css" />
+
+    <script src="./BZZIT_files/jquery.js.pobrane"></script>
+    <script src="./BZZIT_files/jquery-ui.min.js.pobrane"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <title id="gp-head-title">BZZIT</title>
+  </head>
+  <body>
+    <header></header>
+    <nav>
+      <div class="gp-nawig gp-flex-row gp-flex-jc-between">
+        <div class="gp-flex-row gp-flex-jc-start" style="vertical-align: top">
+          <span class="gp-tooltip w3-padding">
+            <a href="http://bzzit/bzzit/index.html">
+              <div class="w3-padding">
+                <img src="./BZZIT_files/apps_40x40.png" alt="" />
+              </div>
+            </a>
+            <p class="gp-tooltipFix">Wybór innej aplikacji</p>
+          </span>
+          <span class="gp-tooltip">
+            <h4
+              class="
+                w3-padding
+                w3-hover-none
+                w3-round-xlarge
+                w3-border
+                w3-border-white
+                w3-hover-border-blue
+                w3-hover-text-blue
+              "
+            >
+              WROBELK1
+            </h4>
+            <p class="gp-tooltipFix">
+              <br />Wróbel Krzysztof (wrobelk1) <br />( IT-04-2 ) Informatyk
+              <br />Aleja Powstania Warszawskiego 10 p. 88 <br /><br />
+            </p>
+          </span>
+        </div>
+        <div
+          id="gp-nawig-tytul"
+          class="gp-font-comic"
+          style="white-space: nowrap; font-size: 20px"
+        >
+          BZZIT Sprzęt
+        </div>
+        <div>
+          <div>
+            <form
+              id="main"
+              action="http://bzzit/bzzit/sprzet/index.php?akcja=60001"
+              method="post"
+              enctype="multipart/form-data"
+              accept-charset="UTF-8"
+            >
+              <input type="hidden" name="STATUSIN" value=" " />
+              <input type="hidden" name="STATUSNOTIN" value=" " />
+              <input
+                type="text"
+                name="ITID"
+                placeholder=" KMP NTB MON ... "
+                size="50"
+              />
+              <input
+                type="submit"
+                value="SZUKAJ"
+                class="w3-button w3-blue w3-hover-green w3-round-medium"
+              />
+            </form>
+            <div class="w3-padding gp-tooltip">
+              <a
+                href="http://bzzit/bzzit/sprzet/index.php?akcja=10099"
+                class="w3-button w3-hover-green w3-round-medium w3-white"
+              >
+                KOSZYK
+              </a>
+              <p class="gp-tooltipFix">
+                Operacje dla wielu urządzeń <br />
+                - rewersy,<br />
+                - załącznik 11,<br />
+                - zmiana statusu
+              </p>
+            </div>
+          </div>
+        </div>
+        <div></div>
+        <div>
+          <table>
+            <tbody>
+              <tr>
+                <td class="w3-text-yellow">2021-10-08</td>
+                <td>11:55:19</td>
+              </tr>
+              <tr>
+                <td>
+                  <span id="nawi-info-czas" class="w3-text-green">0.051</span>
+                </td>
+                <td><span id="nawi-info-pamiec">24 613 736</span></td>
+              </tr>
+              <tr>
+                <td class="w3-text-yellow">KMP-006486</td>
+                <td>10.28.33.36</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </nav>
+    <section id="SECTION_LEWA"></section>
+    <section id="SECTION_SRODEK" class="gp-body ">
+      <link
+        rel="stylesheet"
+        href="./BZZIT_files/gp_marquee.css"
+        type="text/css"
+      />
+      <div
+        class="
+          gp-marquee
+          w3-border-blue w3-round-xlarge w3-border-left w3-border-right
+        "
+      >
+        <div class="gp-marquee-div">
+          <span class="gp-marquee-span"> </span>
+        </div>
+      </div>
+      <span style="position: fixed; right: 10px; top: 150px">
+        <a
+          href="http://bzzit/bzzit/sprzet/instrukcja/index.php"
+          target="_blanc"
+          class="w3-button w3-blue w3-hover-green w3-round-xlarge"
+        >
+          INSTRUKCJA
+        </a>
+      </span>
+      <div class="gp-container">
+      <table class="w3-animate-zoom test">
+          
+          
+            <tr>
+              <th>
+                FORMULARZE <br />
+                - dodawanie
+              </th>
+              <th>
+                URZĄDZENIA <br />
+                - tylko aktywne
+              </th>
+              <th>
+                ANALIZA <br />
+                - tylko aktywnych
+              </th>
+             
+            </tr>
+            <tr>
+              <td>
+                <div class="w3-padding gp-tooltip">
+                  <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=11099"
+                  class="w3-button w3-hover-green w3-round-medium w3-blue"
+                  >
+                  KMP - Excel rejestracja
+                </a>
+                <p class="gp-tooltipFix">
+                  Formularz do zgłaszania komputerów stacjonarnych - eksport z
+                  Excel <br /><br />
+                  KMP
+                </p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=51001"
+                  class="w3-button w3-hover-green w3-round-medium w3-blue"
+                >
+                  <img src="desktop_tower_icon_138693.svg" />
+                  KMP - lista
+                </a>
+                <p class="gp-tooltipFix">Lista aktywnych urządzeń KMP</p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=71001"
+                  class="w3-button w3-hover-green w3-round-medium w3-blue"
+                  ><img src="desktop_tower_icon_138693.svg" />
+                  KMP
+                </a>
+                <p class="gp-tooltipFix">Analiza aktywnych urządzeń KMP</p>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=11199"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                >
+                  NTB - Excel rejestracja
+                </a>
+                <p class="gp-tooltipFix">
+                  Formularz do zgłaszania laptopów, ultrabooków, tabletów -
+                  eksport z Excel <br /><br />
+                  NTB
+                </p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=51101"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                  ><i class="material-icons">laptop</i>
+                  NTB - lista
+                </a>
+                <p class="gp-tooltipFix">Lista aktywnych urządzeń NTB</p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=71101"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                  ><i class="material-icons">laptop</i>
+                  NTB
+                </a>
+                <p class="gp-tooltipFix">Analiza aktywnych urządzeń NTB</p>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=11299"
+                  class="w3-button w3-hover-green w3-round-medium w3-indigo"
+                >
+                  MON - Excel rejestracja
+                </a>
+                <p class="gp-tooltipFix">
+                  Formularz do zgłaszania monitorów - eksport z Excel
+                  <br /><br />
+                  MON
+                </p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=51201"
+                  class="w3-button w3-hover-green w3-round-medium w3-indigo"
+                  ><i class="material-icons">desktop_windows</i>
+                  MON - lista
+                </a>
+                <p class="gp-tooltipFix">Lista aktywnych urządzeń MON</p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=71201"
+                  class="w3-button w3-hover-green w3-round-medium w3-indigo"
+                  ><i class="material-icons">desktop_windows</i>
+                  MON
+                </a>
+                <p class="gp-tooltipFix">Analiza aktywnych urządzeń MON</p>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=11399"
+                  class="w3-button w3-hover-green w3-round-medium w3-amber"
+                >
+                  DRK - Excel rejestracja
+                </a>
+                <p class="gp-tooltipFix">
+                  Formularz do zgłaszania drukarek - eksport z Excel
+                  <br /><br />
+                  DRK
+                </p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=51301"
+                  class="w3-button w3-hover-green w3-round-medium w3-amber"
+                  ><i class="material-icons">print</i>
+                  DRK - lista
+                </a>
+                <p class="gp-tooltipFix">Lista aktywnych urządzeń DRK</p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=71301"
+                  class="w3-button w3-hover-green w3-round-medium w3-amber"
+                  ><i class="material-icons">print</i>
+                  DRK
+                </a>
+                <p class="gp-tooltipFix">Analiza aktywnych urządzeń DRK</p>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=11499"
+                  class="w3-button w3-hover-green w3-round-medium w3-purple"
+                >
+                  SKN - Excel rejestracja
+                </a>
+                <p class="gp-tooltipFix">
+                  Formularz do zgłaszania skanerów - eksport z Excel
+                  <br /><br />
+                  SKN
+                </p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=51401"
+                  class="w3-button w3-hover-green w3-round-medium w3-purple"
+                  ><i class="material-icons">scanner</i>
+                  SKN - lista
+                </a>
+                <p class="gp-tooltipFix">Lista aktywnych urządzeń SKN</p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=71401"
+                  class="w3-button w3-hover-green w3-round-medium w3-purple"
+                  ><i class="material-icons">scanner</i>
+                  SKN
+                </a>
+                <p class="gp-tooltipFix">Analiza aktywnych urządzeń SKN</p>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=10001"
+                  class="w3-button w3-hover-green w3-round-medium w3-sand"
+                >
+                  Nowy Sprzęt
+                </a>
+                <p class="gp-tooltipFix">Dodanie nowego sprzętu</p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=50002"
+                  class="w3-button w3-hover-green w3-round-medium w3-sand"
+                >
+                  Weryfikacja
+                </a>
+                <p class="gp-tooltipFix">
+                  Lista urządzeń do weryfikacji <br />Urządzenia bez : <br />-
+                  adresu, <br />- wydziału, <br />- nr UMK,
+                </p>
+              </div>
+            </td>
+            <td>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=70001"
+                  class="w3-button w3-hover-green w3-round-medium w3-sand"
+                >
+                  WSZYSTKIE
+                </a>
+                <p class="gp-tooltipFix">
+                  Analiza wszystkich aktywnych urządzeń
+                </p>
+              </div>
+              <br />
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=70002"
+                  class="w3-button w3-hover-green w3-round-medium w3-sand"
+                >
+                  DOSTAWY
+                </a>
+                <p class="gp-tooltipFix">Analiza dostaw</p>
+              </div>
+            </td>
+            
+          </tr>
+       
+      </table>
+      <div class="flex-table">
+          <table>
+
+            <tr>
+              WYSZUKIWANIE <br />
+              - cały sprzęt
+            </tr>
+            <tr>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=60001"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                >
+                  KMP, NTB, MON ...
+                </a>
+                <p class="gp-tooltipFix">
+                  Wyszukiwanie urządzeń typu KMP NTB MON
+                  <br /><br />Wyszukiwanie dotyczy wszystkich urządzeń w bazie.
+                </p>
+              </div>
+
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=60003"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                >
+                  Zutylizowane
+                </a>
+                <p class="gp-tooltipFix">Sprzęt oddany do utylizacji.</p>
+              </div>
+              <br />
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=60004"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                >
+                  Wszystkie zmiany
+                </a>
+                <p class="gp-tooltipFix">
+                  Ostatnie edycje wszystkich użytkowników.<br /><br />Lista
+                  ostatnio edytowanych urządzeń.<br />Urządzenia : <br />- które
+                  zostały przemieszczone,<br />- którym zmodyfikowano dane
+                  ogólne,<br />- którym dodano uwagi.<br />Dotyczy wszystkich
+                  urządzeń niezaleznie od statusu.
+                </p>
+              </div>
+
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=60005"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                >
+                  DOSTAWY - lista
+                </a>
+                <p class="gp-tooltipFix">
+                  Wyszukiwanie urządzeń według dostaw <br /><br />
+                  Sprzęt sortowany według daty dostawy
+                </p>
+              </div>
+            </tr>
+          </table>
+          </div>
+        <div class="flex-table">
+        
+
+          <table>
+         
+        
+            <tr>
+              PRZEMIESZCZENIA
+              <br />
+              DOKUMENTY
+            </tr>
+           
+            <tr>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=50001"
+                  class="w3-button w3-hover-green w3-round-medium w3-sand"
+                >
+                  Sprzęt nieaktywny
+                </a>
+                <p class="gp-tooltipFix">
+                  Urządzenia : <br />- przyjęte, <br />- w magazynie,<br />-
+                  wydane na zewnatrz UMK np. wybory,<br />- w serwisie
+                  wewnętrznym,<br />- w serwisie zewnętrznym,<br />- w
+                  likwidacji.
+                </p>
+              </div>
+              <br />
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=50003"
+                  class="w3-button w3-hover-green w3-round-medium w3-sand"
+                >
+                  Przemieszczenia
+                </a>
+                <p class="gp-tooltipFix">
+                  Urządzenia : <br />- Rewers - przemieszczenie <br />-
+                  Przemieszczenie - wysłane do KO<br />- Przemieszczenie -
+                  wysłane do EM
+                </p>
+              </div>
+              <br />
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=50004"
+                  class="w3-button w3-hover-green w3-round-medium w3-sand"
+                >
+                  Likwidacja
+                </a>
+                <p class="gp-tooltipFix">
+                  Urządzenia : <br />- Do weryfikacji <br />- Do ekspertyzy
+                  <br />- Do likwidacji<br />- Zatwierdzone EM
+                </p>
+              </div>
+            </tr>
+          
+            <tr>
+              <div class="w3-padding gp-tooltip">
+                <a
+                  href="http://bzzit/bzzit/sprzet/index.php?akcja=60801"
+                  class="w3-button w3-hover-green w3-round-medium w3-khaki"
+                >
+                  Rewersy
+                </a>
+                <p class="gp-tooltipFix">Wszystkie wystawione rewersy</p>
+              </div>
+            </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    </div>
+    </section>
+    <section id="SECTION_PRAWA"></section>
+    <footer></footer>
+
+    <script>
+      $(function () {
+        $.ajax({
+          url: "ajax/ajax_daneZew.php",
+          type: "POST",
+          //dataType : 'json',
+          data: {
+            s_root: "",
+            s_tinfo: "",
+            i_czas: "",
+          },
+          success: function (msg) {
+            //alert( "Dane success: " + msg );
+            //ten fragment wykona się po pomyślnym zakończeniu połączenia - gdy dostaliśmy odpowiedź od serwera nie będącą błędem (404, 400, 500 itp)
+            //atrybut ret zawiera dane zwrócone z serwera
+          },
+          complete: function (msg) {
+            //alert( "Dane complete: " + msg );
+            //ten fragment wykona się po zakończeniu łączenia - nie ważne czy wystąpił błąd, czy sukces
+          },
+          error: function (msg) {
+            //alert( "Dane error: " + msg );
+            //ten fragment wykona się w przypadku BŁĘDU
+            //do zmiennej errorText zostanie przekazany błąd
+          },
+        });
+
+        var ulice_lista = ["aaaaa", "aaaaasdre", "aaaaaa132"];
+        //$( "#ulica" ).autocomplete({ source: ulice_lista });
+
+        $("#nawi-info-czas").html("0.051");
+        $("#nawi-info-pamiec").html("24 613 736");
+        $("#gp-nawig-tytul").html(" BZZIT Sprzęt ");
+        $("#gp-head-title").html("BZZIT");
+      });
+    </script>
+  </body>
+</html>
